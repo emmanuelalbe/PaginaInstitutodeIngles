@@ -1,0 +1,124 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+@mixin flex ($flexa,$direccion,$aling,$justify){
+    display: $flexa;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direccion;
+}
+#header_index_clases_metodologia {margin-bottom: 4rem;
+    @include flex(flex,column,center,center);
+    >#titulo{
+        @include flex(flex,column,center,center);
+        >h1{
+            font-weight: 650;
+            margin:2rem 1rem 2rem;
+            font:$title-phone $Titulo ;
+            text-align: center;}
+        >p{  
+            font: $parra-phone $Titulo;
+            text-align: center;
+            font-weight: 650;
+            line-height: 2rem;
+            margin:1rem;}
+            >picture{
+                margin: 3rem auto 0;
+                    img{width: 8rem;}}
+        }picture img{width:20rem;}
+}
+}
+
+@media (min-width:481px) and (max-width:768px){
+
+    //El mixin se realizo en esta pagina, porque no funciona fuera del media Quary (asi me explico un tutor)
+@mixin flex ($flexa,$direccion,$aling,$justify){
+    display: $flexa;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direccion;
+}
+    
+#header_index_clases_metodologia{ 
+    @include flex(flex,column,center,center) ;
+    >#titulo{
+        @include flex(flex,column,center,center) ;
+        >h1{
+            margin:1rem;
+            font:$title-tablet $Titulo ;
+            text-align: center;}
+        >p{  
+            font: $parra-tablet $Titulo;
+            text-align: center;
+            font-weight: 800;
+            line-height: 2.5rem;
+            margin:2rem;}
+        picture{margin-top:2rem;;
+            img{width: 10rem;}}
+            }picture img{width:26rem; margin-bottom: 3rem;}
+}
+}
+
+@media (min-width:769px) and (max-width:1024px){
+   //El mixin se realizo en esta pagina, porque no funciona fuera del media Quary (asi me explico un tutor)
+   @mixin flex ($flexa,$direccion,$aling,$justify){
+    display: $flexa;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-direction: $direccion;
+}
+
+#header_index_clases_metodologia{ 
+@include flex(flex,column,center,center) ;
+    >#titulo{
+        @include flex(flex,column,center,center) ;
+        >h1{
+         margin:2rem 1rem 2rem;
+        font:$title-tablet $Titulo ;
+        text-align: center;}
+        >p{  
+        font: $parra-tablet $Titulo;
+        text-align: center;
+        font-weight: 650;
+        line-height: 3rem;
+        margin:1rem;}
+        picture{
+            margin: 6rem auto 0;
+            img{width: 10rem;}}
+        }picture img{width:29rem;margin-bottom: 2rem;}}
+}
+
+@media (min-width:1024px){
+    @mixin flex ($flexa,$direccion,$aling,$justify){
+        display: $flexa;
+        justify-content: $justify;
+        align-items: $aling;
+        flex-direction: $direccion;
+    }
+ #header_index_clases_metodologia{ 
+        @include flex(flex,column,center,center) ;
+        >#titulo{
+            margin-top: 6rem;
+            display: grid;
+            grid-template-areas:
+            "imagenUno tituloIndex"
+            "imagenUno parrafo "
+            "imagenUno parrafo";
+            picture{text-align: center; margin:8rem 2rem 0;
+                img{width:10rem;}
+                grid-area: imagenUno; 
+            }>h1{grid-area: tituloIndex;
+                display: inline;
+                text-shadow: 0.3rem 0.3rem 0.6rem rgba(1, 81, 42, 0.8);
+                font:3.5rem $Titulo ;
+                text-align: center;}
+            >p{grid-area: parrafo;
+                font: 1.4rem $Titulo;
+                text-align:center;
+                font-weight: 650;
+                line-height: 3rem;
+                margin:1rem;}
+        }picture  img{ width:25rem;}}
+
+
+
+}

@@ -1,0 +1,87 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+.color{
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:$background_Nav_Footer;
+}
+
+.nav-item{
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    transition: all 700ms;
+}
+    
+.nav-link {
+    color: rgb(2, 2, 2);
+    transition: all 362ms;
+        &:hover {
+    border-top: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
+    border-radius: 0.6rem;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;}}
+}
+
+@media (min-width: 481px) and (max-width: 989px) {
+
+.color{
+    background-color: rgba(1, 81, 42, 0.507);
+    width: 100%;
+    font-size: 2rem;
+    text-transform:initial;
+    font-weight: 600;
+    text-align: center;
+    font-family: $Titulo;
+}
+    
+.nav-item{
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    transition: all 800ms;
+}
+                  
+.nav-link {transition: all 1s;
+    color:black;
+        &:hover {color: rgb(255, 255, 255);
+        border-top: 0.4rem solid rgb(255, 255, 255);
+        border-bottom: 0.4rem solid rgb(255, 255, 255);
+        border-radius: 0.6rem;
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+    }&:active{ color:rgba(194, 14, 14, 0.6) ;}
+}
+}
+
+@media (min-width: 991px) {
+.color {
+    height: 4rem;
+    width: 100%;
+    font-weight: 600;
+    background-color: rgba(0, 152, 79, 0.498);
+}
+
+.nav-item{
+    margin-right: 5rem;
+    margin-left: 2rem;
+    transition: all 700ms;
+}
+              
+.nav-link {
+    font: 1.3rem $Titulo;
+    font-weight: 700;
+    color: rgb(3, 19, 8);
+    transition: all 950ms;
+    &:hover{
+        border-top: 0.2rem solid white;
+        border-bottom: 0.2rem solid white;
+        border-radius: 0.6rem;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;}
+}
+}

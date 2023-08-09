@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+@media (min-width: 320px) and (max-width: 480px) {
+  #header_index_clases_metodologia {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo > h1 {
+    font-weight: 650;
+    margin: 2rem 1rem 2rem;
+    font: 2rem "Ysabeau SC", sans-serif;
+    text-align: center;
+  }
+  #header_index_clases_metodologia > #titulo > p {
+    font: 1.2rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+    line-height: 2rem;
+    margin: 1rem;
+  }
+  #header_index_clases_metodologia > #titulo > picture {
+    margin: 3rem auto 0;
+  }
+  #header_index_clases_metodologia > #titulo > picture img {
+    width: 8rem;
+  }
+  #header_index_clases_metodologia picture img {
+    width: 20rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #header_index_clases_metodologia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo > h1 {
+    margin: 1rem;
+    font: 2.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+  }
+  #header_index_clases_metodologia > #titulo > p {
+    font: 1.4rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    line-height: 2.5rem;
+    margin: 2rem;
+  }
+  #header_index_clases_metodologia > #titulo picture {
+    margin-top: 2rem;
+  }
+  #header_index_clases_metodologia > #titulo picture img {
+    width: 10rem;
+  }
+  #header_index_clases_metodologia picture img {
+    width: 26rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #header_index_clases_metodologia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo > h1 {
+    margin: 2rem 1rem 2rem;
+    font: 2.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+  }
+  #header_index_clases_metodologia > #titulo > p {
+    font: 1.4rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+    line-height: 3rem;
+    margin: 1rem;
+  }
+  #header_index_clases_metodologia > #titulo picture {
+    margin: 6rem auto 0;
+  }
+  #header_index_clases_metodologia > #titulo picture img {
+    width: 10rem;
+  }
+  #header_index_clases_metodologia picture img {
+    width: 29rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  #header_index_clases_metodologia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #header_index_clases_metodologia > #titulo {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-areas: "imagenUno tituloIndex" "imagenUno parrafo " "imagenUno parrafo";
+  }
+  #header_index_clases_metodologia > #titulo picture {
+    text-align: center;
+    margin: 8rem 2rem 0;
+    grid-area: imagenUno;
+  }
+  #header_index_clases_metodologia > #titulo picture img {
+    width: 10rem;
+  }
+  #header_index_clases_metodologia > #titulo > h1 {
+    grid-area: tituloIndex;
+    display: inline;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(1, 81, 42, 0.8);
+    font: 3.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+  }
+  #header_index_clases_metodologia > #titulo > p {
+    grid-area: parrafo;
+    font: 1.4rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+    line-height: 3rem;
+    margin: 1rem;
+  }
+  #header_index_clases_metodologia picture img {
+    width: 25rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .color {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(1, 81, 42, 0.507);
+  }
+  .nav-item {
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    transition: all 700ms;
+  }
+  .nav-link {
+    color: rgb(2, 2, 2);
+    transition: all 362ms;
+  }
+  .nav-link:hover {
+    border-top: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
+    border-radius: 0.6rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 989px) {
+  .color {
+    background-color: rgba(1, 81, 42, 0.507);
+    width: 100%;
+    font-size: 2rem;
+    text-transform: initial;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  .nav-item {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    transition: all 800ms;
+  }
+  .nav-link {
+    transition: all 1s;
+    color: black;
+  }
+  .nav-link:hover {
+    color: rgb(255, 255, 255);
+    border-top: 0.4rem solid rgb(255, 255, 255);
+    border-bottom: 0.4rem solid rgb(255, 255, 255);
+    border-radius: 0.6rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-link:active {
+    color: rgba(194, 14, 14, 0.6);
+  }
+}
+@media (min-width: 991px) {
+  .color {
+    height: 4rem;
+    width: 100%;
+    font-weight: 600;
+    background-color: rgba(0, 152, 79, 0.498);
+  }
+  .nav-item {
+    margin-right: 5rem;
+    margin-left: 2rem;
+    transition: all 700ms;
+  }
+  .nav-link {
+    font: 1.3rem "Ysabeau SC", sans-serif;
+    font-weight: 700;
+    color: rgb(3, 19, 8);
+    transition: all 950ms;
+  }
+  .nav-link:hover {
+    border-top: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
+    border-radius: 0.6rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  footer {
+    height: 3.5rem;
+    background-color: rgba(1, 81, 42, 0.507);
+  }
+  footer nav ul li {
+    list-style: none;
+    color: white;
+    font-size: 0.5rem;
+    margin-left: 1.5rem;
+  }
+  footer nav ul li a picture img {
+    width: 3rem;
+    transition: all 680ms;
+  }
+  footer nav ul li a picture img:hover {
+    width: 3rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 760px) {
+  footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  footer {
+    height: 4.2rem;
+    background-color: rgba(1, 81, 42, 0.507);
+  }
+  footer nav ul li {
+    list-style: none;
+    color: white;
+  }
+  footer nav ul li a picture img {
+    width: 4rem;
+    transition: all 680ms;
+  }
+  footer nav ul li a picture img:hover {
+    width: 3.5rem;
+  }
+}
+@media (min-width: 761px) and (max-width: 1024px) {
+  footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  footer {
+    height: 5rem;
+    margin-top: 5rem;
+    background-color: rgba(1, 81, 42, 0.507);
+  }
+  footer nav ul li {
+    list-style: none;
+  }
+  footer nav ul li a picture img {
+    width: 4.5rem;
+    transition: all 680ms;
+  }
+  footer nav ul li a picture img:hover {
+    width: 4rem;
+    background-color: rgba(240, 240, 240, 0.646);
+    padding: 0;
+    border-radius: 60%;
+  }
+}
+@media (min-width: 1024px) {
+  footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  footer {
+    height: 4rem;
+    margin-top: 5rem;
+    background-color: rgba(1, 81, 42, 0.507);
+  }
+  footer nav ul li {
+    list-style: none;
+    color: white;
+  }
+  footer nav ul li a picture img {
+    width: 4rem;
+    transition: all 900ms;
+    font-size: 0.5rem;
+  }
+  footer nav ul li a picture img:hover {
+    width: 3.8rem;
+    background-color: rgba(240, 240, 240, 0.646);
+    padding: 0;
+    border-radius: 60%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #main_index_clases > #tarjeta_index {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #main_index_clases > #tarjeta_index > .div_Imagen {
+    border: none;
+  }
+  #main_index_clases > #tarjeta_index > div {
+    margin: 1rem 0.4rem 1rem 0.4rem;
+    position: relative;
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+  }
+  #main_index_clases > #tarjeta_index > div .relleno {
+    height: 0.3rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: aparecer 4s forwards, sombra 4s;
+  }
+  #main_index_clases > #tarjeta_index > div h3 {
+    font: 2.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div p {
+    font: 1.2rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+    line-height: 1.7rem;
+    margin: 1rem;
+  }
+  #main_index_clases > #tarjeta_index > div picture {
+    margin-left: auto;
+  }
+  #main_index_clases > #tarjeta_index > div picture img {
+    width: 8rem;
+  }
+  @keyframes aparecer {
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes sombra {
+    to {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);
+    }
+  }
+  @keyframes transicion {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #main_index_clases > #tarjeta_index {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #main_index_clases > #tarjeta_index > .div_Imagen {
+    border: none;
+  }
+  #main_index_clases > #tarjeta_index > div {
+    margin: 1rem 0.4rem 1rem 0.4rem;
+    position: relative;
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+  }
+  #main_index_clases > #tarjeta_index > div .relleno {
+    height: 0.3rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: aparecer 4s forwards, sombra 4s;
+  }
+  #main_index_clases > #tarjeta_index > div h3 {
+    font: 2.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div p {
+    font: 1.2rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    line-height: 2.3rem;
+    margin: 1rem;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div picture {
+    margin-bottom: 3rem;
+  }
+  #main_index_clases > #tarjeta_index > div picture img {
+    width: 14rem;
+  }
+  @keyframes aparecer {
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes sombra {
+    to {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);
+    }
+  }
+  @keyframes transicion {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #main_index_clases > #tarjeta_index {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #main_index_clases > #tarjeta_index > .div_Imagen {
+    border: none;
+  }
+  #main_index_clases > #tarjeta_index > div {
+    margin: 3rem 2rem 0;
+    border-left: 0.15rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.15rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.15rem solid rgba(0, 0, 0, 0.107);
+    border-radius: 2rem;
+  }
+  #main_index_clases > #tarjeta_index > div .relleno {
+    height: 0.5rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: aparecer 4s forwards, sombra 4s;
+  }
+  #main_index_clases > #tarjeta_index > div h3 {
+    font: 2.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div p {
+    padding: 3rem;
+    font: 1.4rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    line-height: 2.3rem;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div picture {
+    margin-bottom: 3rem;
+  }
+  #main_index_clases > #tarjeta_index > div picture img {
+    width: 14rem;
+  }
+  @keyframes aparecer {
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes sombra {
+    to {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);
+    }
+  }
+  @keyframes transicion {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}
+@media (min-width: 1024px) {
+  #main_index_clases > #tarjeta_index {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #main_index_clases > #tarjeta_index > .div_Imagen {
+    border: none;
+  }
+  #main_index_clases > #tarjeta_index > div {
+    margin: 3rem 2rem 0;
+    border-left: 0.2rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.2rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.107);
+    border-radius: 45rem;
+  }
+  #main_index_clases > #tarjeta_index > div .relleno {
+    height: 0.2rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);
+    border-radius: 2rem;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: aparecer 4s forwards, sombra 4s;
+  }
+  #main_index_clases > #tarjeta_index > div h3 {
+    font: 2.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div p {
+    padding: 3rem;
+    font: 1.2rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    line-height: 2.3rem;
+    font-weight: 650;
+  }
+  #main_index_clases > #tarjeta_index > div picture {
+    margin-bottom: 3rem;
+  }
+  #main_index_clases > #tarjeta_index > div picture img {
+    width: 14rem;
+  }
+  @keyframes aparecer {
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes sombra {
+    to {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);
+    }
+  }
+  @keyframes transicion {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

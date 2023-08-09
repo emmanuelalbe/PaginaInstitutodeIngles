@@ -1,0 +1,250 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+#main_index_clases > #tarjeta_index{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    >.div_Imagen{
+        border: none;
+    }
+    >div{
+        margin:1rem 0.4rem 1rem 0.4rem;
+        position: relative;
+        border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+           border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+        .relleno{
+            height: 0.3rem;
+            background: rgb(54,54,54);
+            background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+            border-radius: 2rem;
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            opacity: 0; 
+            animation: aparecer 4s forwards, sombra 4s}
+        h3{
+            font:$title_card_phone $Titulo ;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 650;}
+        p{
+            font: $parra-phone $Titulo;
+            text-align:center;
+            font-weight: 650;
+            line-height: 1.7rem;
+            margin:1rem;
+    }
+        picture { margin-left: auto;
+            img{width: 8rem;}}
+}
+}
+@keyframes aparecer {
+    to {
+          opacity: 1;}
+}
+
+@keyframes sombra {
+    to {
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);}
+}
+
+@keyframes transicion {
+    from {
+        transform: scale(0.8);}
+    to{
+        transform: scale(1);}
+}
+}
+
+@media (min-width: 481px) and (max-width: 768px) { 
+#main_index_clases > #tarjeta_index{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    >.div_Imagen{
+         border: none;
+}
+    >div{
+        margin:1rem 0.4rem 1rem 0.4rem;
+        position: relative;
+        border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+        border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+        .relleno{
+            height: 0.3rem;
+            background: rgb(54,54,54);
+            background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+            border-radius: 2rem;
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            opacity: 0; 
+            animation: aparecer 4s forwards, sombra 4s}
+        h3{
+            font:$title_card_phone $Titulo ;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 650;}
+        p{
+            font: $parra-phone $Titulo;
+            text-align:center;
+            line-height: 2.3rem;
+            margin:1rem;
+            font-weight: 650;
+    }
+        picture { margin-bottom: 3rem;
+            img{width: 14rem;}}
+    }
+    }
+@keyframes aparecer {
+     to{
+        opacity: 1;}
+}
+    
+@keyframes sombra {
+    to {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);}
+    }
+    
+@keyframes transicion {
+    from {
+        transform: scale(0.8);}
+    to{
+        transform: scale(1);}
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+@mixin flex ($flexa,$direccion,$aling,$justify){
+    display: $flexa;
+    align-items: $aling;
+    flex-direction: $direccion;
+}
+#main_index_clases > #tarjeta_index{
+    margin-bottom: 2rem;
+    @include flex(flex,column,center,center);
+    >.div_Imagen{
+        border: none;}
+    >div{
+    margin:3rem 2rem 0;
+    border-left: 0.15rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.15rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.15rem solid rgba(0, 0, 0, 0.107);
+    border-radius: 2rem;
+        .relleno{
+            height: 0.5rem;
+            background: rgb(54,54,54);
+            background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+            border-radius: 2rem;
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            opacity: 0; 
+            animation: aparecer 4s forwards, sombra 4s}
+        h3{
+            font:$title_card_phone $Titulo ;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 650;}
+        p{
+            padding: 3rem;
+            font:1.4rem $Titulo;
+            text-align:center;
+            line-height: 2.3rem;
+            font-weight: 650;}
+        picture { margin-bottom: 3rem;
+            img{width: 14rem;}}
+}}
+@keyframes aparecer {
+    to{
+    opacity: 1;}
+}
+        
+@keyframes sombra {
+    to {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);}
+}
+        
+@keyframes transicion {
+    from {
+        transform: scale(0.8);}
+    to{
+    transform: scale(1);}
+}
+}
+
+
+@media (min-width:1024px){
+@mixin flex ($flexa,$direccion,$aling,$justify){
+    display: $flexa;
+    align-items: $aling;
+    flex-direction: $direccion;
+}
+#main_index_clases > #tarjeta_index{
+    margin-bottom: 2rem;
+    @include flex(flex,column,center,center);
+        >.div_Imagen{
+            border: none;}
+        >div{
+        margin:3rem 2rem 0;
+        border-left: 0.2rem solid rgba(0, 0, 0, 0.107);
+        border-right: 0.2rem solid rgba(0, 0, 0, 0.107);
+        border-bottom: 0.2rem solid rgba(0, 0, 0, 0.107);
+        border-radius: 45rem;
+            .relleno{
+                height: 0.2rem;
+                background: rgb(54,54,54);
+                background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);
+                border-radius: 2rem;
+                width:55%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2rem;
+                opacity: 0; 
+                animation: aparecer 4s forwards, sombra 4s}
+            h3{
+                font:$title_card_phone $Titulo ;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 650;}
+            p{
+                padding: 3rem;
+                font: $parra-phone $Titulo;
+                text-align:center;
+                line-height: 2.3rem;
+                font-weight: 650;}
+            picture { margin-bottom: 3rem;
+                img{width: 14rem;}}
+    }}
+    @keyframes aparecer {
+        to{
+        opacity: 1;}
+    }
+            
+    @keyframes sombra {
+        to {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.731);}
+    }
+            
+    @keyframes transicion {
+        from {
+            transform: scale(0.8);}
+        to{
+        transform: scale(1);}
+    }
+    }
+    
+    
+
