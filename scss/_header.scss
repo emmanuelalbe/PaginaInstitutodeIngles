@@ -6,8 +6,9 @@
     align-items: $aling;
     flex-direction: $direccion;
 }
+
 #header_index_clases_metodologia {margin-bottom: 4rem;
-    @include flex(flex,column,center,center);
+@include flex(flex,column,center,center);
     >#titulo{
         @include flex(flex,column,center,center);
         >h1{
@@ -30,7 +31,7 @@
 
 @media (min-width:481px) and (max-width:768px){
 
-    //El mixin se realizo en esta pagina, porque no funciona fuera del media Quary (asi me explico un tutor)
+ //El mixin se realizo en esta pagina, porque no funciona fuera del media Quary (asi me explico un tutor)
 @mixin flex ($flexa,$direccion,$aling,$justify){
     display: $flexa;
     justify-content: $justify;
@@ -59,8 +60,8 @@
 }
 
 @media (min-width:769px) and (max-width:1024px){
-   //El mixin se realizo en esta pagina, porque no funciona fuera del media Quary (asi me explico un tutor)
-   @mixin flex ($flexa,$direccion,$aling,$justify){
+   //E7l mixin se realizo en esta pagina, porque no funciona fuera del media Quary (asi me explico un tutor)
+@mixin flex ($flexa,$direccion,$aling,$justify){
     display: $flexa;
     justify-content: $justify;
     align-items: $aling;
@@ -83,8 +84,8 @@
         margin:1rem;}
         picture{
             margin: 6rem auto 0;
-            img{width: 10rem;}}
-        }picture img{width:29rem;margin-bottom: 2rem;}}
+        img{width: 10rem;}}}
+        picture img{width:29rem;margin-bottom: 2rem;}}
 }
 
 @media (min-width:1024px){
@@ -108,17 +109,15 @@
                 grid-area: imagenUno; 
             }>h1{grid-area: tituloIndex;
                 display: inline;
-                text-shadow: 0.3rem 0.3rem 0.6rem rgba(1, 81, 42, 0.8);
                 font:3.5rem $Titulo ;
-                text-align: center;}
+                text-align: center;
+                transition:all 3s;
+                    &:hover{ text-shadow: 0.3rem 0.3rem 0.6rem rgba(1, 81, 42, 0.8);}}
             >p{grid-area: parrafo;
-                font: 1.4rem $Titulo;
+                font: $parra-Notebook $Titulo;
                 text-align:center;
                 font-weight: 650;
                 line-height: 3rem;
                 margin:1rem;}
         }picture  img{ width:25rem;}}
-
-
-
 }

@@ -1,0 +1,155 @@
+@media (min-width: 320px) and (max-width: 480px) {
+#main_metodologia{
+font-family: $Titulo;
+    #division{       
+        .tarjeta_metodologia{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin:1.2rem 0.4rem 1.2rem 0.4rem;
+            border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+            border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+            border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+            .relleno{
+                height: 0.3rem;
+                background: rgb(54,54,54);
+                background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+                border-radius: 2rem;
+                width:90%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2rem;}
+            ul li{ margin:0.7rem 1rem 1rem;picture{ img{width:6rem;}}
+                font-size: $parra-phone; text-align: center;font-weight: 600;}
+            h2{
+                text-align: center;
+                margin: 1rem;
+                font-size: $title-phone;} 
+            h3{
+                text-align: center;
+                margin: 1rem;
+                font-size: $title-phone;
+               
+            }p{font-size: $parra-phone;
+                text-align: center;
+                font-weight: 700;
+                line-height: 2rem;
+                margin:1rem;}}}}
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    #main_metodologia{
+        font-family: $Titulo;
+        #division{.tarjeta_metodologia{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin:1.2rem 0.4rem 1.2rem 0.4rem;
+                border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+                border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+                border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+                .relleno{
+                    height: 0.3rem;
+                    background: rgb(54,54,54);
+                    background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+                    border-radius: 2rem;
+                    width:90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 2rem;}
+                h2{
+                    text-align: center;
+                    margin: 1rem;
+                    font-size: $title-tablet;} 
+                li{ font-size: $parra-phone;
+                    margin:1rem 1rem 1rem; font-weight: 600;text-align: center;
+                     picture{ img
+                        {width:7rem;}}}
+                h3{
+                    text-align: center;
+                    margin: 1rem;}
+                    p{font-size: $parra-tablet;
+                    text-align: center;
+                    font-weight: 700;
+                    line-height: 2rem;
+                    margin:1rem;}}}}
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+#main_metodologia{font-family: $Titulo;
+    #division{
+        .tarjeta_metodologia{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin:1.2rem 0.4rem 1.2rem 0.4rem;
+                border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+                border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+                border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+                .relleno{
+                    height: 0.3rem;
+                    background: rgb(54,54,54);
+                    background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+                    border-radius: 2rem;
+                    width:90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 2rem;}
+                ul{text-align: center;} li{ picture{ img{width: 13rem;}}
+                 font-size:$parra-tablet; margin:1.3rem auto 1.3rem; text-align: center; font-weight: 700; list-style:circle;}
+                h2{
+                    text-align: center;
+                    margin: 1rem;
+                    font-size: $title-tablet;}
+                h3{
+                    text-align: center;
+                    margin: 1rem;}
+                    p{font-size:$parra-tablet;
+                    text-align: center;
+                    font-weight: 500;
+                    line-height: 2rem;
+                    margin:1rem;}}}}
+}
+            
+@media (min-width:1025px) {
+#main_metodologia{font-family: $Titulo;
+    #division{display: grid;
+        grid-template-areas:"divuno divuno "
+                            "divtres  divdos " 
+                        " divcuatro divcuatro ";
+         .divUno{ grid-area: divuno;} 
+         .divDos{grid-area: divdos;}
+         .divTres{grid-area: divtres;}
+         .divCuatro{grid-area: divcuatro;}
+         .tarjeta_metodologia{
+            display: flex;
+            flex-direction: column;
+            margin:1.2rem 0.4rem 1.2rem 0.4rem;
+            border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+            border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+            border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+             transition: all 1s;
+                &:hover{box-shadow:0.3rem 0.3rem 0.5rem rgba(1, 81, 42, 0.8);}
+            .relleno{
+                height: 0.3rem;
+                background: rgb(54,54,54);
+                background: linear-gradient(59deg, rgba(54,54,54,1) 0%, rgba(252,10,10,1) 100%);
+                border-radius: 2rem;
+                width:90%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2rem;}
+            ul li{ margin-left: 2rem; margin-right: 2rem; font-size: $parra-Notebook; font-weight: 700; text-align: center; margin:0.5rem 1rem 1.5rem; picture{ img{width: 15rem;}}}
+                h2{
+                    text-align: center;
+                    margin: 1rem;
+                    font-size:2rem;}
+                h3{
+                    text-align: center;
+                    margin: 1rem;}
+                    p{font:$parra-Notebook $Titulo;
+                    text-align: center;
+                    font-weight: 800;
+                    line-height: 3rem;
+                    margin:2rem;}}}}
+}

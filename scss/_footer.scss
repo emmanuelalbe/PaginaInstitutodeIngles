@@ -1,6 +1,6 @@
 @media (min-width:320px) and (max-width:480px){
 //Extend
-    %footerDisplay{
+%footerDisplay{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -12,12 +12,8 @@ footer{
     background-color:$background_Nav_Footer;
     nav ul{@extend %footerDisplay;
                 li{list-style: none; color:white; font-size: 0.5rem; margin-left:1.5rem;
-                    a picture img{
-                        width:3rem;
-                        transition: all 680ms;
-                        &:hover{ width:3rem; }}
-                }}
-    }
+                    a picture img{width:3rem;transition: all 680ms;&:hover{ width:3rem; }}}}
+}
 }
 
 @media (min-width:481px) and (max-width:760px){
@@ -27,14 +23,12 @@ footer{
     justify-content:space-between;
     align-items:center;
     text-align:center
-}    
+} 
+
 footer{ height:4.2rem;background-color: rgba(1, 81, 42, 0.507);
     nav ul{@extend %footer;
-                li{list-style: none;color: white;
-                    a picture img{
-                         width:4rem;
-                        transition: all 680ms;
-                        &:hover{ width:3.5rem; }}}}
+                li{list-style: none;color: white; a picture img{width:4rem; transition: all 680ms;
+                    &:hover{ width:3.5rem; }}}}
 }
 }
 
@@ -49,14 +43,10 @@ footer{ height:4.2rem;background-color: rgba(1, 81, 42, 0.507);
 footer{ height:5rem; margin-top: 5rem;
     background-color:$background_Nav_Footer;
     nav ul{@extend %Display;
-            li{list-style: none;
-                 a picture img{
-                        width:4.5rem;
-                        transition: all 680ms;
-                        &:hover{ width:4rem; background-color: rgba(240, 240, 240, 0.646);
-                             padding: 0; border-radius: 60%;}}
-                }}
-    }
+            li{list-style: none; a picture img{ width:4.5rem; transition: all 680ms;
+                &:hover{width:4rem; background-color: rgba(240, 240, 240, 0.646);
+                        padding: 0; border-radius: 60%;}}}}
+}
 }
 
 @media (min-width:1024px){
@@ -69,13 +59,10 @@ footer{ height:5rem; margin-top: 5rem;
     }
     footer{ height:4rem; margin-top: 5rem;
         background-color:$background_Nav_Footer;
-        nav ul{@extend %Dis;
-                li{list-style: none; color:white;
-                     a picture img{
+        nav ul{@extend %Dis; li{list-style: none; color:white; a picture img{
                             width:4rem;
                             transition: all 900ms; font-size: 0.5rem;
                             &:hover{ width:3.8rem; background-color: rgba(240, 240, 240, 0.646);
-                                 padding: 0; border-radius: 60%;}}
-                    }}
-        }
+                                 padding: 0; border-radius: 60%;}}}}
+}
 }

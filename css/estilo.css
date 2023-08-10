@@ -16,11 +16,11 @@
   #header_index_clases_metodologia > #titulo > h1 {
     font-weight: 650;
     margin: 2rem 1rem 2rem;
-    font: 2rem "Ysabeau SC", sans-serif;
+    font: 1.8rem "Ysabeau SC", sans-serif;
     text-align: center;
   }
   #header_index_clases_metodologia > #titulo > p {
-    font: 1.2rem "Ysabeau SC", sans-serif;
+    font: 0.95rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 650;
     line-height: 2rem;
@@ -51,11 +51,11 @@
   }
   #header_index_clases_metodologia > #titulo > h1 {
     margin: 1rem;
-    font: 2.5rem "Ysabeau SC", sans-serif;
+    font: 2rem "Ysabeau SC", sans-serif;
     text-align: center;
   }
   #header_index_clases_metodologia > #titulo > p {
-    font: 1.4rem "Ysabeau SC", sans-serif;
+    font: 1.05rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 800;
     line-height: 2.5rem;
@@ -87,11 +87,11 @@
   }
   #header_index_clases_metodologia > #titulo > h1 {
     margin: 2rem 1rem 2rem;
-    font: 2.5rem "Ysabeau SC", sans-serif;
+    font: 2rem "Ysabeau SC", sans-serif;
     text-align: center;
   }
   #header_index_clases_metodologia > #titulo > p {
-    font: 1.4rem "Ysabeau SC", sans-serif;
+    font: 1.05rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 650;
     line-height: 3rem;
@@ -131,13 +131,16 @@
   #header_index_clases_metodologia > #titulo > h1 {
     grid-area: tituloIndex;
     display: inline;
-    text-shadow: 0.3rem 0.3rem 0.6rem rgba(1, 81, 42, 0.8);
     font: 3.5rem "Ysabeau SC", sans-serif;
     text-align: center;
+    transition: all 3s;
+  }
+  #header_index_clases_metodologia > #titulo > h1:hover {
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(1, 81, 42, 0.8);
   }
   #header_index_clases_metodologia > #titulo > p {
     grid-area: parrafo;
-    font: 1.4rem "Ysabeau SC", sans-serif;
+    font: 1.16rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 650;
     line-height: 3rem;
@@ -367,13 +370,13 @@
     animation: aparecer 4s forwards, sombra 4s;
   }
   #main_index_clases > #tarjeta_index > div h3 {
-    font: 2.5rem "Ysabeau SC", sans-serif;
+    font: 1.5rem "Ysabeau SC", sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: 650;
   }
   #main_index_clases > #tarjeta_index > div p {
-    font: 1.2rem "Ysabeau SC", sans-serif;
+    font: 0.95rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 650;
     line-height: 1.7rem;
@@ -437,13 +440,13 @@
     animation: aparecer 4s forwards, sombra 4s;
   }
   #main_index_clases > #tarjeta_index > div h3 {
-    font: 2.5rem "Ysabeau SC", sans-serif;
+    font: 1.5rem "Ysabeau SC", sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: 650;
   }
   #main_index_clases > #tarjeta_index > div p {
-    font: 1.2rem "Ysabeau SC", sans-serif;
+    font: 1.05rem "Ysabeau SC", sans-serif;
     text-align: center;
     line-height: 2.3rem;
     margin: 1rem;
@@ -504,9 +507,8 @@
     animation: aparecer 4s forwards, sombra 4s;
   }
   #main_index_clases > #tarjeta_index > div h3 {
-    font: 2.5rem "Ysabeau SC", sans-serif;
+    font: 2rem "Ysabeau SC", sans-serif;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 650;
   }
   #main_index_clases > #tarjeta_index > div p {
@@ -551,12 +553,19 @@
   #main_index_clases > #tarjeta_index > .div_Imagen {
     border: none;
   }
+  #main_index_clases > #tarjeta_index > .div_Imagen:hover {
+    box-shadow: none;
+  }
   #main_index_clases > #tarjeta_index > div {
     margin: 3rem 2rem 0;
     border-left: 0.2rem solid rgba(0, 0, 0, 0.107);
     border-right: 0.2rem solid rgba(0, 0, 0, 0.107);
     border-bottom: 0.2rem solid rgba(0, 0, 0, 0.107);
     border-radius: 45rem;
+    transition: all 2s;
+  }
+  #main_index_clases > #tarjeta_index > div:hover {
+    box-shadow: 0.3rem 0.3rem 0.2rem rgba(1, 81, 42, 0.8);
   }
   #main_index_clases > #tarjeta_index > div .relleno {
     height: 0.2rem;
@@ -572,14 +581,14 @@
     animation: aparecer 4s forwards, sombra 4s;
   }
   #main_index_clases > #tarjeta_index > div h3 {
-    font: 2.5rem "Ysabeau SC", sans-serif;
+    font: 1.5rem "Ysabeau SC", sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-weight: 650;
   }
   #main_index_clases > #tarjeta_index > div p {
     padding: 3rem;
-    font: 1.2rem "Ysabeau SC", sans-serif;
+    font: 1.16rem "Ysabeau SC", sans-serif;
     text-align: center;
     line-height: 2.3rem;
     font-weight: 650;
@@ -607,6 +616,228 @@
     to {
       transform: scale(1);
     }
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #main_metodologia {
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  #main_metodologia #division .tarjeta_metodologia {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.2rem 0.4rem 1.2rem 0.4rem;
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+  }
+  #main_metodologia #division .tarjeta_metodologia .relleno {
+    height: 0.3rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia ul li {
+    margin: 0.7rem 1rem 1rem;
+    font-size: 0.95rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  #main_metodologia #division .tarjeta_metodologia ul li picture img {
+    width: 6rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.8rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h3 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.8rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia p {
+    font-size: 0.95rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 1rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #main_metodologia {
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  #main_metodologia #division .tarjeta_metodologia {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.2rem 0.4rem 1.2rem 0.4rem;
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+  }
+  #main_metodologia #division .tarjeta_metodologia .relleno {
+    height: 0.3rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia li {
+    font-size: 0.95rem;
+    margin: 1rem 1rem 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  #main_metodologia #division .tarjeta_metodologia li picture img {
+    width: 7rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h3 {
+    text-align: center;
+    margin: 1rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia p {
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #main_metodologia {
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  #main_metodologia #division .tarjeta_metodologia {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.2rem 0.4rem 1.2rem 0.4rem;
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+  }
+  #main_metodologia #division .tarjeta_metodologia .relleno {
+    height: 0.3rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia ul {
+    text-align: center;
+  }
+  #main_metodologia #division .tarjeta_metodologia li {
+    font-size: 1.05rem;
+    margin: 1.3rem auto 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    list-style: circle;
+  }
+  #main_metodologia #division .tarjeta_metodologia li picture img {
+    width: 13rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h3 {
+    text-align: center;
+    margin: 1rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia p {
+    font-size: 1.05rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 2rem;
+    margin: 1rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main_metodologia {
+    font-family: "Ysabeau SC", sans-serif;
+  }
+  #main_metodologia #division {
+    display: grid;
+    grid-template-areas: "divuno divuno " "divtres  divdos " " divcuatro divcuatro ";
+  }
+  #main_metodologia #division .divUno {
+    grid-area: divuno;
+  }
+  #main_metodologia #division .divDos {
+    grid-area: divdos;
+  }
+  #main_metodologia #division .divTres {
+    grid-area: divtres;
+  }
+  #main_metodologia #division .divCuatro {
+    grid-area: divcuatro;
+  }
+  #main_metodologia #division .tarjeta_metodologia {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem 0.4rem 1.2rem 0.4rem;
+    border-left: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-right: 0.1rem solid rgba(0, 0, 0, 0.107);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.107);
+    transition: all 1s;
+  }
+  #main_metodologia #division .tarjeta_metodologia:hover {
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(1, 81, 42, 0.8);
+  }
+  #main_metodologia #division .tarjeta_metodologia .relleno {
+    height: 0.3rem;
+    background: rgb(54, 54, 54);
+    background: linear-gradient(59deg, rgb(54, 54, 54) 0%, rgb(252, 10, 10) 100%);
+    border-radius: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia ul li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.16rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5rem 1rem 1.5rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia ul li picture img {
+    width: 15rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia h3 {
+    text-align: center;
+    margin: 1rem;
+  }
+  #main_metodologia #division .tarjeta_metodologia p {
+    font: 1.16rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    line-height: 3rem;
+    margin: 2rem;
   }
 }
 
