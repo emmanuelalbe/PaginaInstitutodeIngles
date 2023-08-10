@@ -20,7 +20,7 @@
     text-align: center;
   }
   #header_index_clases_metodologia > #titulo > p {
-    font: 0.95rem "Ysabeau SC", sans-serif;
+    font: 1rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 650;
     line-height: 2rem;
@@ -158,7 +158,7 @@
     background-color: rgba(1, 81, 42, 0.507);
   }
   .nav-item {
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
     transition: all 700ms;
   }
@@ -376,7 +376,7 @@
     font-weight: 650;
   }
   #main_index_clases > #tarjeta_index > div p {
-    font: 0.95rem "Ysabeau SC", sans-serif;
+    font: 1rem "Ysabeau SC", sans-serif;
     text-align: center;
     font-weight: 650;
     line-height: 1.7rem;
@@ -643,7 +643,7 @@
   }
   #main_metodologia #division .tarjeta_metodologia ul li {
     margin: 0.7rem 1rem 1rem;
-    font-size: 0.95rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 600;
   }
@@ -661,7 +661,7 @@
     font-size: 1.8rem;
   }
   #main_metodologia #division .tarjeta_metodologia p {
-    font-size: 0.95rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 700;
     line-height: 2rem;
@@ -697,7 +697,7 @@
     font-size: 2rem;
   }
   #main_metodologia #division .tarjeta_metodologia li {
-    font-size: 0.95rem;
+    font-size: 1rem;
     margin: 1rem 1rem 1rem;
     font-weight: 600;
     text-align: center;
@@ -838,6 +838,197 @@
     font-weight: 800;
     line-height: 3rem;
     margin: 2rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #contactos h3 {
+    font: 1.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+  }
+  #contactos #navContactos p {
+    font: 1rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+    line-height: 2rem;
+    margin: 1rem;
+  }
+  #contactos ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #contactos ul li {
+    list-style: none;
+  }
+  #contactos ul li a {
+    text-decoration: none;
+    color: black;
+    font: 0.8rem "Ysabeau SC", sans-serif;
+  }
+  #contactos ul li picture img {
+    width: 3rem;
+    transition: all 680ms;
+  }
+  #contactos ul li picture img:hover {
+    width: 3rem;
+  }
+  #contactos #mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    margin: 3rem 2rem 4rem;
+    border-radius: 1rem;
+  }
+  #contactos #mapa iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  #contactos h3 {
+    font: 1.5rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+  }
+  #contactos #navContactos p {
+    font: 1.05rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    line-height: 2.3rem;
+    margin: 1rem;
+    font-weight: 650;
+  }
+  #contactos ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #contactos ul li {
+    list-style: none;
+    margin: 1.5rem;
+  }
+  #contactos ul li a {
+    text-decoration: none;
+    color: black;
+    font: 1.05rem "Ysabeau SC", sans-serif;
+  }
+  #contactos ul li picture img {
+    width: 3rem;
+    transition: all 680ms;
+  }
+  #contactos ul li picture img:hover {
+    width: 3rem;
+  }
+  #contactos #mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    margin: 3rem 4rem 4rem;
+    border-radius: 1rem;
+  }
+  #contactos #mapa iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #contactos h3 {
+    font: 2rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+  }
+  #contactos #navContactos p {
+    padding: 3rem;
+    font: 1.4rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    line-height: 2.3rem;
+    font-weight: 650;
+  }
+  #contactos ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #contactos ul li {
+    list-style: none;
+    margin: 1.5rem;
+  }
+  #contactos ul li a {
+    text-decoration: none;
+    color: black;
+    font: 1.16rem "Ysabeau SC", sans-serif;
+  }
+  #contactos ul li picture img {
+    width: 5rem;
+    transition: all 680ms;
+  }
+  #contactos ul li picture img:hover {
+    width: 4rem;
+  }
+  #contactos #mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    margin: 3rem 4rem 4rem;
+    border-radius: 1rem;
+  }
+  #contactos #mapa iframe {
+    width: 100%;
+    height: 15rem;
+  }
+}
+@media (min-width: 1024px) {
+  #contactos h3 {
+    margin-top: 3rem;
+    font: 3.3rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    font-weight: 650;
+  }
+  #contactos #navContactos p {
+    padding: 3rem;
+    font: 1.4rem "Ysabeau SC", sans-serif;
+    text-align: center;
+    line-height: 2.3rem;
+    font-weight: 650;
+  }
+  #contactos ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #contactos ul li {
+    list-style: none;
+    margin: 1.5rem;
+  }
+  #contactos ul li a {
+    text-decoration: none;
+    color: black;
+    font: 1.16rem "Ysabeau SC", sans-serif;
+  }
+  #contactos ul li picture img {
+    width: 5rem;
+    transition: all 680ms;
+  }
+  #contactos ul li picture img:hover {
+    width: 4rem;
+  }
+  #contactos #mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid black;
+    margin: 3rem 8rem 4rem;
+    border-radius: 1rem;
+  }
+  #contactos #mapa iframe {
+    width: 100%;
+    height: 20rem;
   }
 }
 

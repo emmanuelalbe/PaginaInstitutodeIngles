@@ -1,0 +1,129 @@
+@media (min-width: 320px) and (max-width: 480px){
+#contactos {
+        h3{
+        font:$title_card_phone $Titulo ;
+        text-align: center;
+        font-weight: 650;}
+        #navContactos
+        p{
+            font: $parra-phone $Titulo;
+            text-align: center;
+            font-weight: 650;
+            line-height: 2rem;
+            margin:1rem;} ul {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            li{list-style: none;
+                a{ text-decoration: none; color: black; font: 0.8rem $Titulo;} picture img{width:3rem;transition: all 680ms;&:hover{ width:3rem; }}}
+        }#mapa{display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0.1rem solid black;
+            margin:3rem 2rem 4rem;
+            border-radius:1rem;
+            iframe{
+            width: 100%; 
+        }
+}
+}
+}
+@media (min-width: 481px) and (max-width: 768px){
+    #contactos {
+            h3{
+                font:$title_card_phone $Titulo ;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 650;}
+            #navContactos
+            p{
+            font: $parra-tablet $Titulo;
+            text-align:center;
+            line-height: 2.3rem;
+            margin:1rem;
+            font-weight: 650;} ul {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                li{list-style: none; margin: 1.5rem;
+                    a{ text-decoration: none; color: black; font: $parra-tablet $Titulo;} picture img{width:3rem;transition: all 680ms;&:hover{ width:3rem; }}}
+            }#mapa{display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 0.1rem solid black;
+                margin:3rem 4rem 4rem;
+                border-radius:1rem;
+                iframe{
+                width: 100%; 
+            }
+    }
+    }
+    }
+@media (min-width: 769px) and (max-width: 1024px){
+        #contactos {
+                h3{
+            font:$title-tablet $Titulo ;
+            text-align: center;
+            font-weight: 650;}
+                #navContactos
+                p{
+                    padding: 3rem;
+                    font:1.4rem $Titulo;
+                    text-align:center;
+                    line-height: 2.3rem;
+                    font-weight: 650;} ul {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    li{list-style: none; margin: 1.5rem;
+                        a{ text-decoration: none; color: black; font: $parra-Notebook $Titulo;} picture img{width:5rem;transition: all 680ms;&:hover{ width:4rem; }}}
+                }#mapa{display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 0.1rem solid black;
+                    margin:3rem 4rem 4rem;
+                    border-radius:1rem;
+                    iframe{
+                    width: 100%;
+                    height: 15rem; 
+                }
+        }
+        }
+        }
+
+        @media (min-width: 1024px){
+            #contactos {
+                    h3{
+                margin-top: 3rem;
+                font:$title-notebook $Titulo ;
+                text-align: center;
+                font-weight: 650;}
+                    #navContactos
+                    p{
+                        padding: 3rem;
+                        font:1.4rem $Titulo;
+                        text-align:center;
+                        line-height: 2.3rem;
+                        font-weight: 650;} ul {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        li{list-style: none; margin: 1.5rem;
+                            a{ text-decoration: none; color: black; font: $parra-Notebook $Titulo;} picture img{width:5rem;transition: all 680ms;&:hover{ width:4rem; }}}
+                    }#mapa{display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 0.1rem solid black;
+                        margin:3rem 8rem 4rem;
+                        border-radius:1rem;
+                        iframe{
+                        width: 100%;
+                        height: 20rem; 
+                    }
+            }
+            }
+            }
